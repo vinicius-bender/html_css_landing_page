@@ -1,0 +1,424 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)),  url("../img/hrz-5.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+}
+
+.textos-evento{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.textos-evento>h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.textos-evento>h2{
+    width: 350px;
+    font-size: 2rem;
+}
+
+.textos-cor-azul{
+    color: #00BAF2;
+}
+
+.bold-text{
+    font-weight: 700;
+}
+
+.data-div{
+    font-size: 1.2rem;
+}
+
+.form-container{
+    background-color: #95989A;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    gap: 20px;
+}
+
+.form-container>p{
+    font-size: 1.6rem;
+    color: black;
+    padding: 40px 40px 0px 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px 40px 40px;
+}
+
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 2px;
+}
+
+input{
+    padding: 8px;
+    border: 0 none;
+    border-radius: 5px;
+    color: black;
+}
+
+label{
+    font-weight: 700;
+    color: #5D5D5D;
+}
+
+.btn{
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #00BAF2;
+    color: white;
+}
+
+
+.gray-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15vh;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.6rem;
+    text-align: center;
+    color: black;
+    background-color: #95989A;
+}
+
+
+.beneficios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 50px 50px 50px;
+}
+
+.aprendizado{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.images-style{
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-width: 0px;
+    border-radius: 50%;
+}
+
+.imagem-aprendizado-1{
+    background-image: url("../img/sqr-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagem-aprendizado-2{
+    background-image: url("../img/sqr-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagem-aprendizado-3{
+    background-image: url("../img/sqr-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.segundo-container{
+    background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)),  url("../img/hrz-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.endereco-do-evento{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.endereco-do-evento i{
+    font-size: 4rem;
+    color: #00BAF2;
+}
+
+.texto-endereco{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.texto-local-do-evento{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.texto-local-do-evento h2{
+    color: #00BAF2;
+    font-size: 2.6rem;
+}
+
+.texto-local-do-evento p{
+    font-size: 1.1rem;
+}
+
+
+#details {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+  }
+  
+  .detail img {
+    width: 50%;
+  }
+  
+  .detail h3 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 500;
+  }
+  
+  #detail-1 h3 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+  
+  .detail-description {
+    width: 100%;
+    padding-left: 2em;
+  }
+  
+  #detail-3 .detail-description {
+    justify-self: flex-start;
+  }
+  
+  .detail-description ul {
+    list-style-position: inside;
+  }
+  
+  .detail-description ul li {
+    margin-bottom: 0.4em;
+  }
+  
+  .detail-description ul li:last-child {
+    font-weight: bold;
+  }
+
+  .quarto-container{
+    background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)),  url("../img/hrz-6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4em;
+  }
+
+  .inscricao{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    max-width: fit-content;
+    padding: 50px;
+  }
+
+  .inscricao p{
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  button{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 15px;
+    background-color: #00BAF2;
+    border: none;
+    width: 90%;
+    opacity: 90%;
+  }
+
+  button:hover{
+    opacity: 100%;
+    cursor: pointer;
+  }
+
+
+  footer{
+    text-align: center;
+    color: #95989A;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+  }
+
+
+#footer-desc{
+    font-size: 1.2rem;
+}
+
+  #footer-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .contato{
+    margin-top: 30px;
+  }
+
+
+
+@media (max-width: 450px) {
+  header{
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    
+  }
+
+  .form-container{
+    max-width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  form{
+    padding: 5px 20px 20px 20px;
+}
+
+.form-div{
+  text-align: left;
+}
+
+  .beneficios{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.aprendizado{
+  max-width: 100%;
+}
+
+
+.images-style{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.segundo-container{
+  flex-direction: column;
+}
+
+.endereco-do-evento{
+  width: 100%;
+  flex-direction: column;
+}
+
+
+.texto-local-do-evento{
+  display: none;
+}
+
+.texto-local-do-evento h2{
+  font-size: 1rem;
+}
+
+
+.detail{
+  flex-direction: column;
+  margin-bottom: 0.5em;
+  gap: 0;
+}
+
+.detail img{
+  width: 100%;
+  margin: 2em 0;
+}
+
+#detail-1 img{
+  display: none;
+}
+
+.detail-description{
+  padding: 0;
+}
+
+#detail-3 img{
+  order: 2;
+}
+
+#detail-3 .detail-description{
+  order: 1;
+}
+
+
+.inscricao p{
+  font-size: 1.4rem;
+}
+
+}
+
+
+
